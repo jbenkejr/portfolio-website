@@ -1,0 +1,98 @@
+body{
+   background-color: slategray;
+}
+
+.menu{
+   list-style-type: none;
+   margin: 0;
+   margin-left: 650px;
+   padding: 0;
+   width: 235px;
+   position: fixed;
+ }
+ 
+ li {
+   float: left;
+
+ }
+ 
+ li a {
+   display: block;
+   color: black;
+   font-family: fantasy;
+   font-weight: 100;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+
+ }
+ 
+ li a:hover {
+   background-color:lawngreen;
+ }
+
+.bio{
+   padding-top: 50px;
+   text-align: center;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 50px;
+}
+.redrocks{
+   width: 45%;
+   display: inline-block;
+   margin-left: 425px;
+   margin-top: 150px;
+   margin-bottom: 50px;
+   transform: rotate(90deg);
+}
+.linkedin{
+   text-decoration: none;
+   text-align: center;
+   list-style-type: none;
+   margin-left: 500px;
+}
+.email{
+   text-decoration: none;
+   text-align: center;
+   list-style-type: none;
+   margin-left: 200px;
+}
+
+.about{
+   padding-top: 50px;
+   text-align: center;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.github{
+   text-decoration: none;
+   text-align: center;
+   list-style-type: none;
+   margin-left: 600px;
+}
+
+.description{
+   padding-top: 150px;
+   padding-bottom: 150px;
+   text-align: center;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   padding: 20px;
+   width: 100%;
+   background-image: url(https://media.giphy.com/media/l1BgRuUbcL5wgQLtu/giphy.gif);
+   color: white;
+   text-align: center;
+ }
+
+ .googleMaps{
+    padding-top: 150px;
+    text-align: center;
+ }
